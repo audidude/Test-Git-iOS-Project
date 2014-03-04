@@ -21,6 +21,7 @@
 		3B6FCA6A18C68E52000839B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B6FCA4C18C68E52000839B5 /* UIKit.framework */; };
 		3B6FCA7218C68E52000839B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B6FCA7018C68E52000839B5 /* InfoPlist.strings */; };
 		3B6FCA7418C68E52000839B5 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6FCA7318C68E52000839B5 /* Git_TestTests.m */; };
+		3B6FCA7F18C690A6000839B5 /* TFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6FCA7E18C690A6000839B5 /* TFTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		3B6FCA6F18C68E52000839B5 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		3B6FCA7118C68E52000839B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3B6FCA7318C68E52000839B5 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		3B6FCA7D18C690A6000839B5 /* TFTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTest.h; sourceTree = "<group>"; };
+		3B6FCA7E18C690A6000839B5 /* TFTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				3B6FCA5A18C68E52000839B5 /* Main.storyboard */,
 				3B6FCA5D18C68E52000839B5 /* TFViewController.h */,
 				3B6FCA5E18C68E52000839B5 /* TFViewController.m */,
+				3B6FCA7D18C690A6000839B5 /* TFTest.h */,
+				3B6FCA7E18C690A6000839B5 /* TFTest.m */,
 				3B6FCA6018C68E52000839B5 /* Images.xcassets */,
 				3B6FCA4F18C68E52000839B5 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B6FCA5F18C68E52000839B5 /* TFViewController.m in Sources */,
+				3B6FCA7F18C690A6000839B5 /* TFTest.m in Sources */,
 				3B6FCA5918C68E52000839B5 /* TFAppDelegate.m in Sources */,
 				3B6FCA5518C68E52000839B5 /* main.m in Sources */,
 			);
